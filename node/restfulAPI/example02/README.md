@@ -1,6 +1,7 @@
 Example from:
 http://benaugarten.com/blog/2013/01/31/restful-a-better-rest-api-using-node-dot-js-with-express/
 
+http://mongoosejs.com/
 ###install
 ```bash
 $ npm install
@@ -11,10 +12,7 @@ $ node index.js
 ```
 ###curl
 ```bash
-$ curl http://localhost:3000/xxxx
-$ curl http://localhost:3000/xxxx -d title="koxme" -d year="1980"
-
-$ curl http://localhost:3000/resources/51dfc8f592d06b1b11000003
+$ curl http://localhost:3000/user
 ```
 ###mongodb:
 ```bash
