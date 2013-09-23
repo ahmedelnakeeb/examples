@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+   <style>
+    .width-100 {
+      width: 100%;
+    }
+
+    /*body { padding-bottom: 55px; }*/
+
+    .navbar-opacity {
+      /*z-index: 2;*/
+      /*color: #000;*/
+      /*background-color: #000;*/
+      /*-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";*/
+      /*filter: alpha(opacity=90);*/
+      /*opacity: 0.9;*/
+
+      /*background: rgba(255, 255, 255, 0);*/ /* browsers */
+      /*filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#4cffffff', endColorstr='#4cffffff');*/ /* IE */
+
+      background: url('img/pixel.png');
+      /*width: 100%;*/
+      /*height: 100%;*/
+    }
+
+    /*
+      .right-position {
+      float: right;
+    }*/
+
+
+    </style>
+
+  </head>
+  <body>
+
+    <!--
+    transparent navbar but no ther content (button, ...)
+    important: IE8 compatibility
+    http://stackoverflow.com/questions/3975688/css-background-opacity-with-rgba-not-working-in-ie-8
+    http://stackoverflow.com/questions/9873468/can-i-change-the-opacity-of-the-navbar-in-twitter-bootstrap
+     -->
+
+    <nav class="navbar navbar-default navbar-fixed-bottom navbar-opacity" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header pull-right">
+<!--         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button> -->
+        <!-- <a class="navbar-brand" href="#">Brand</a> -->
+        <div class="navbar-brand">By we</div>
+      </div>
+    </nav>
+
+    <img src="img/600x400.gif" class="img-responsive width-100" alt="Responsive image">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
