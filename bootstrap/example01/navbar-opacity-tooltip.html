@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+   <style>
+    .width-100 {
+      width: 100%;
+    }
+
+    /*body { padding-bottom: 55px; }*/
+
+    .navbar-opacity {
+      background: url('img/pixel.png');
+    }
+
+
+    </style>
+
+  </head>
+  <body>
+
+
+    <nav class="navbar navbar-default navbar-fixed-bottom navbar-opacity" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header pull-right">
+        <!-- <div class="navbar-brand" style="color: red">By we | 2013</div> -->
+        <button id="b-tooltip" type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="" data-original-title="We are the best!">ThsBrdn</button>
+      </div>
+    </nav>
+
+    <img src="img/600x400.gif" class="img-responsive width-100" alt="Responsive image">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+    <script>
+    $( document ).ready(function() {
+      $('#b-tooltip').tooltip();
+    });
+    </script>
+  </body>
+</html>
